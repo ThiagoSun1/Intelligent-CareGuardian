@@ -1,0 +1,30 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Credentials and device-specific secrets
+.env
+secrets.env
+.dashboard_secret
+.jetson_device_id
+
+# Local patient/event data
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+*.log
+screenshots/
+captures/
+
+# Large model/export files
+*.pt
+*.onnx
+*.engine
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
